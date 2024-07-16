@@ -32,3 +32,14 @@ git clone https://github.com/2017fighting/nvim ~/.config/nvim
 ```shell
 nvim
 ```
+
+#### TODOS
+- [ ] theme things
+- [ ] language things
+  - [ ] lua
+  - [ ] markdown
+  - [ ] python
+- [ ] git thgins
+- [ ] other useful things
+
+
