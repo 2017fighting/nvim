@@ -99,5 +99,6 @@ unittest
 
 - nvim-neotest/neotest
 
-- 一键给表达式取名
-- doc gen
+- 一键给表达式取名 -[x] doc gen
+- catppuccin 支持的都看下
+- lazynvim的更新日志看下
