@@ -34,6 +34,7 @@ nvim
 ```
 
 #### TODOS
+
 - [ ] theme things
 - [ ] language things
   - [ ] lua
@@ -41,5 +42,62 @@ nvim
   - [ ] python
 - [ ] git thgins
 - [ ] other useful things
+  - [ ] translate
 
+自定义文件类型、后缀
+定义某个目录下的文件是某个类型的
+cmp
+winbar
 
+git
+
+- diffview
+- git blame
+
+快速跳转
+
+- flash
+
+不打开新的nvim tab
+willothy/flatten.nvim
+
+自动切换输入法
+
+greeter
+
+- goolord/alpha-nvim
+
+luasnip
+
+- 自定义代码片段
+- Postfix?
+
+关闭某些功能
+{ "max397574/better-escape.nvim", enabled = false },
+
+jupyter
+
+- kiyoon/jupynium.nvim
+
+python
+
+- basedpyright
+
+markdown
+
+- mattn/vim-maketable
+
+marks
+
+- chentoast/marks.nvim
+
+scroll
+
+- karb94/neoscroll.nvim
+
+unittest
+
+- nvim-neotest/neotest
+
+- 一键给表达式取名
+- doc gen
