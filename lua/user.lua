@@ -7,6 +7,10 @@ return {
         inlay_hints = true, -- enable/disable inlay hints on start
         -- semantic_tokens = true, -- enable/disable semantic token highlighting
       },
+      diagnostics = {
+        -- Update diagnostics in Insert mode (if false, diagnostics are updated on InsertLeave
+        update_in_insert = false,
+      },
     },
   },
 }

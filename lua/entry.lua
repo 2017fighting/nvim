@@ -102,8 +102,12 @@ return {
   -- TODO:unit test
   { import = "astrocommunity.utility.neodim" },
   { import = "astrocommunity.utility.noice-nvim" },
-  { import = "astrocommunity/utility/nvim-toggler" },
-  { import = "astrocommunity/utility/telescope-fzy-native-nvim" },
-  -- { import = "astrocommunity/utility/telescope-lazy-nvim" },
-  { import = "astrocommunity/utility/telescope-live-grep-args-nvim" },
+  { import = "astrocommunity.utility.nvim-toggler" },
+  { import = "astrocommunity.utility.telescope-fzy-native-nvim" },
+  -- { import = "astrocommunity.utility.telescope-lazy-nvim" },
+  { import = "utility.telescope-live-grep-args-nvim" },
+  { import = "astrocommunity.utility.vim-fetch" },
+  -- { import = "astrocommunity.workflow.bad-practices-nvim" },
+  -- { import = "astrocommunity.workflow.hardtime-nvim" },
+  { import = "astrocommunity.workflow.precognition-nvim" },
 }
