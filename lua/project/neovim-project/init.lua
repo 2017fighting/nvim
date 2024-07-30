@@ -4,6 +4,8 @@ return {
     opts = function(_, opts)
       return {
         dashboard_mode = true,
+        last_session_on_startup = false,
+        filetype_autocmd_timeout = 0,
         projects = { -- define project roots
           -- "~/projects/*",
           "~/.config/nvim",

@@ -115,5 +115,7 @@ return {
   -- { import = "astrocommunity.workflow.bad-practices-nvim" },
   -- { import = "astrocommunity.workflow.hardtime-nvim" },
   { import = "astrocommunity.workflow.precognition-nvim" },
-  -- { import = "dashboard/dashboar-nvim" },
+  -- { import = "dashboard/dashboard-nvim" },
+  { import = "dashboard/alpha-nvim" },
+  { import = "file-explorer/yazi" },
 }
