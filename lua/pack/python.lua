@@ -15,7 +15,12 @@ return {
           settings = {
             basedpyright = {
               analysis = {
-                typeCheckingMode = "basic",
+                -- typeCheckingMode = "basic",
+                typeCheckingMode = "standard",
+                autoSearchPaths = true,
+                diagnosticMode = "openFilesOnly",
+                useLibraryCodeForTypes = true,
+                reportMissingTypeStubs = false,
                 autoImportCompletions = true,
                 stubPath = vim.env.HOME .. "/typings",
                 diagnosticSeverityOverrides = {
@@ -26,6 +31,9 @@ return {
                   reportOptionalMemberAccess = "none",
                   reportOptionalSubscript = "none",
                   reportPrivateImportUsage = "none",
+                  reportAttributeAccessIssue = "none",
+                  -- reportArgumentType = "none",
+                  -- reportReturnType = "none",
                 },
               },
             },
