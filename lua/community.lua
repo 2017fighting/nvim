@@ -10,6 +10,7 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
 
   { import = "astrocommunity.motion.nvim-surround" },
+  { import = "astrocommunity.motion.mini-move" },
 
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.helm" },
